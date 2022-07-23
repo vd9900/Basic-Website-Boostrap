@@ -47,11 +47,17 @@ console.log(JSON.parse(obj));
 
 //     console.log(3)
 // )
-console.log(1)
-setTimeout(()=>{
-    console.log(2)
-    after()
-},3000)
-function after(){
-    console.log(3)
+// console.log(1)
+// setTimeout(()=>{
+//     console.log(2)
+//     after()
+// },3000)
+// function after(){
+//     console.log(3)
+// }
+function convert(min){
+    return arg
 }
+magic = new Proxy({}, {
+	get: (_, f) => ((s, ...a) => s[f].call ? s[f](...a) : s[f])
+})
